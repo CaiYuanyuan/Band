@@ -1,0 +1,45 @@
+a:link{
+	color:white;	
+	background-color:transparent;
+
+	
+}
+ a:visited{
+	color:white;	
+	background-color:transparent;
+}
+ a:hover{
+	color:red;	
+	text-decoration:underline;
+	
+}
+ a:active{
+	color:#778;	
+	background-color:transparent;
+}
+table{
+	text-align:center;
+	border:2px black ridge;
+	border-radius:5px;
+	border-collapse:collapse;
+}
+th{
+	background-color:grey;
+	border-right:1px black solid;
+}
+td{
+	padding:0.4em 3em;
+	border:1px black solid;
+
+}
+tr{
+	background-color:#DEF7F5;
+}
+/*表格偶数行,IE,Firefox，chrome支持此伪类*/
+tr:nth-child(2n){
+	background-color:#CEEDD3;
+}
+tr:hover{
+	background-color:#BFFAF5;
+	font-style:italic;
+}

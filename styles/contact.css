@@ -1,0 +1,28 @@
+a:link{
+	color:white;	
+	background-color:transparent;
+	
+}
+a:visited{
+	color:white;	
+	background-color:transparent;
+}
+a:hover{
+	color:red;	
+	text-decoration:underline;
+	
+}
+a:active{
+	color:#778;	
+	background-color:transparent;
+}
+
+/*让文本和文本框不在一行*/
+label{
+	display:block;
+	font-weight:bold;
+}
+/*表单内的元素分组，IE中不显示边框，FF和Chrome中显示*/
+fieldset{
+	border:0px;
+}

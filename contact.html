@@ -1,0 +1,80 @@
+<!doctype html>
+<html >
+	<head>
+		<meta http-equiv="Content-Type" content="text/html;charset=utf-8">
+		<meta name="keywords" content="网页关键字">
+		<meta name=" description" Content="网页描述文字" >
+		<title>TangBand</title>
+		<link rel="stylesheet" href="styles/tangband.css">
+		<link rel="stylesheet" href="styles/contact.css">
+		<script type="text/javascript" src="scripts/global.js" ></script>
+		<script type="text/javascript" src="scripts/tangband.js" ></script>
+		<script type="text/javascript" src="scripts/contact.js" ></script>
+	</head>
+
+	<body>
+		<div id="header">
+		<img src="images/logo.jpg" alt="logo of TangBand">
+		<div id="slide" class="">
+			<img id="preview" src="images/headanimation.png" alt="组合图片">
+		</div>
+		</div>
+
+		<div id="navigation">
+			<ul>
+				<li><a href="index.html" >首页</a></li>
+				<li><a href="about.html">简介</a></li>
+				<li><a href="photos.html">图片</a></li>
+				<li><a href="live.html">日程</a></li>
+				<li><a href="contact.html">联系</a></li>  
+			</ul>
+		</div>
+		<div id="content">
+			<p class="content-nav"><a href="contact.html" title="主页">联系乐队</a></p>
+			<form method="post" action="#">
+				<!--表单内的元素分组，IE中不显示边框，FF和Chrome中显示-->
+				<fieldset>
+					<p>
+						<!--文本与表单字段关联：for属性值=表单元素id值
+						    提高网站可用性：点击文本，有些浏览器默认行为—— 表单字段获得焦点
+							通过js，可以实现所有浏览器都有此行为-->
+						<label for="name">你的名字：</label>
+						<input type="text" id="name" name="name" value="请输入你的名字" class="required">				
+					</p>
+					<p>
+						<label for="email">你的邮箱：</label>
+						<input type="text" id="email" name="email" value="请输入你的邮箱" class="email required">
+					</p>
+					<p>
+						<label for="message">你想说的话：</label>
+						<!--textarea不是voud元素，包含内容相当于value，
+						不要给它添加value属性，FF,IE,Chrome都不显示
+						value：占位符文本，提示作用-->
+						<textarea id="message" name="message" rows="7" cols="45" class="required" >请输入你想说的话</textarea>
+					</p>
+					<input type="submit" value=" 发 送 ">						
+				</fieldset>
+			</form>
+		</div>
+		<div id="footer" >
+			<ul id="footerul1" class="footer">
+				<li>
+					<a href="http://www.163.com/special/0077450P/feedback_window.html" >意见反馈</a>
+				</li>
+				<li>报料邮箱:CaiyyJob@163.com </li>
+				<li><a href="http://bbs.ent.163.com/list/entjianyi.html" >给网易娱乐提意见</a></li>
+
+			</ul>
+
+			<ul class="footer">
+				<li><a href="#" >About Us</a></li>
+				<li><a href="#" >公司简介</a></li>
+				<li><a href="#" >联系方法</a></li>
+
+			</ul>
+			<p style="color:grey;">CYY版权所有</p>
+			<p style="color:red;">&copy;1991-2016</p>
+			
+		</div>
+	</body>
+</html>

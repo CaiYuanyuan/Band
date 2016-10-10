@@ -1,0 +1,246 @@
+
+/*各页面公共样式*/
+/*去除各浏览器各自为政的默认值*/
+*{
+ padding:0px;
+ margin:0px;
+}
+body{
+    /*颜色*/
+	color:#fb5;
+	background-image:url(../images/tangbg.gif);
+    /*布局*/
+    margin:1em 10%;
+	width:960px;
+	/*字体*/
+	font-size:85%;
+	font-family:"宋体",Helvetica,sans-serif;
+	margin-left:auto;
+	margin-right:auto;
+  
+}
+body *{
+	font-size:1em;
+}
+a{
+	/*字体*/
+	font-weight:bold;
+	text-decoration:none;
+}
+a:link{
+	color:#445;	
+	background-color:#C0DCC0;
+}
+a:visited{
+	color:#345;	
+	background-color:#eb6;
+}
+a:hover{
+	color:#667;	
+	background-color:#fb5;
+}
+a:active{
+	color:#778;	
+	background-color:#ec8;
+}
+#header{
+  /*颜色*/
+	color:#ec8;
+	background-color:#334;	
+	border-color:#667;
+	
+}
+#slide{
+	position:absolute;
+	left:910px;
+	top:70px;
+
+	overflow:hidden;
+	width:120px;
+	height:90px;
+
+	border-radius:2em;
+	border:black;
+	border-width:2em;
+
+}
+#navigation{
+    /*颜色*/
+	color:#455;
+	background-color:#C0DCC0;	
+	border-color:#667;
+	/*布局*/
+
+	border-width:0.1em;
+	border-style:solid;
+	border-bottom-width:0px;
+	border-top-width:0px;
+
+	padding-left:10%;
+	/*字体*/
+	font-family:"Times New Roman",Helvetica,sans-serif;
+}
+#content{
+	color:#223;
+	background-color:#edc;	
+	border-color:#667;
+
+	border-width:0.1em ;
+	border-style:solid;
+	border-top-width:0px;
+	border-bottom-width:0px;
+	padding:0.5em 5%;
+
+
+	/*字体*/
+	line-height:1.8em;
+}
+.content-nav{
+	color:white;
+	background-image:url(../images/indexnav.png);
+	background-repeat:repeat-x;
+	width:856px;
+	height:20px;
+
+	padding-left:5px;
+	vertical-align:center;
+
+	border-radius:5px;
+
+}
+h1{
+	font-family:"Georgia","Times New Roman",sans-serif;
+	font:2.4em normal;
+}
+h2{
+	font-family:"Georgia","Times New Roman",sans-serif;
+	font:1.8em normal;
+	margin-top:1em;
+}
+h3{
+	font-family:"Georgia","Times New Roman",sans-serif;
+	font:1.4em normal;
+	margin-top:1em;
+}
+#content p{
+	margin:1em 0;
+}
+#navigation ul{
+	border-color:#99a;
+	width:100%;
+	overflow:hidden;
+	border-left-width:0.1em;
+	border-left-style:solid;
+	margin-left:auto;
+	margin-right:auto;
+}
+#navigation a:link{
+	color:#32292A;
+	background-color:#C0DCC0;
+	border-color:#99a;
+}
+#navigation a:visited{
+	color:#32292A;
+	/*分号不要漏写，会使css不起作用*/
+	background-color:#C0DCC0;
+	border-color:#99a;
+}
+#navigation a:hover{
+	color:#445;
+	background-color:#EEDDCC;	
+}
+/*active：单击按下不松手时的状态*/
+#navigation a:active{
+	color:#667;
+	background-color:#F4F4F4;	
+}
+#navigation li{
+	display:inline;	
+}
+#navigation li a{
+    /*链接转换为块元素，方便设置内边距*/
+	display:block;
+	float:left;
+
+	padding:0.5em 4.5em;
+
+	/*分隔菜单项*/
+	border-right:0.1em solid;
+
+	/*字体*/
+	text-decoration:none;
+	font-weight:bold;
+}
+
+/*当前页面标识，让用户知道：我正在这里
+指向当前页面的链接，添加到类here中*/
+#navigation li a.here:link,
+#navigation li a.here:visited,
+#navigation li a.here:hover,
+#navigation li a.here:active{
+	color:black;
+    background-color:#EEDDCC;
+}
+#footer{
+	color:#223;
+	background-color:#edc;	
+	border-color:#667;
+
+	border-width:0.1em ;
+	border-style:solid;
+	border-top-width:0px;
+
+
+	/*字体*/
+	line-height:1.8em;
+	text-align:center;
+	padding-top:10px;
+}
+ 
+.footer a:link{
+	color:black;	
+	background-color:transparent;
+
+	
+}
+.footer a:visited{
+	color:black;	
+	background-color:transparent;
+}
+.footer a:hover{
+	color:red;	
+	text-decoration:underline;
+	
+}
+.footer a:active{
+	color:#778;	
+	background-color:transparent;
+}
+.footer a{
+	text-decoration:none;
+
+}
+.footer li{
+	list-style:none;
+	display:inline;
+}
+#footerul1{
+	width:960px;
+	border-bottom-color:grey;
+	border-bottom-width:1px;
+	border-bottom-style:solid;
+}
+/*内容区导航*/
+#content-nav{
+	color:white;
+	background-image:url(../images/indexnav.png);
+	background-repeat:repeat-x;
+	width:856px;
+	height:20px;
+
+	padding-left:5px;
+	vertical-align:center;
+	border-radius:5px;
+
+}
+
