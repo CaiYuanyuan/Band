@@ -1,0 +1,48 @@
+a:link{
+	color:white;	
+	background-color:transparent;
+
+	
+}
+ a:visited{
+	color:white;	
+	background-color:transparent;
+}
+ a:hover{
+	color:red;	
+	text-decoration:underline;
+	
+}
+ a:active{
+	color:#778;	
+	background-color:transparent;
+}
+ul.members {
+	background-image:url(../images/memberbg.png);
+	width:835px;
+	padding:10px;
+	border-radius:5px;
+	border:2px black solid;
+	height:306px;
+
+}
+
+ul.members li{
+	color:white;
+
+	list-style:none;
+	display:inline;
+	width:405px;
+	float:left;
+
+	line-height:1.5em;
+	padding-left:10px;
+	
+	font-family:"宋体";
+	font-size:12px;
+}
+
+
+
+
+

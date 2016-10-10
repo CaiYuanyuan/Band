@@ -1,0 +1,53 @@
+a:link{
+	color:white;	
+	background-color:transparent;
+
+	
+}
+ a:visited{
+	color:white;	
+	background-color:transparent;
+}
+ a:hover{
+	color:red;	
+	text-decoration:underline;
+	
+}
+ a:active{
+	color:#778;	
+	background-color:transparent;
+}
+
+#imagegallery{
+	background-image:url(../images/memberbg.png);
+	width:835px;
+	padding:10px;
+	border-radius:5px;
+	border:2px black solid;
+}
+#imagegallery li{
+	display:inline;
+	list-style:none;
+}
+#imagegallery li img{
+	border-radius:5px;
+	border:2px black solid;
+}
+#imagegallery li img:hover{
+	border-radius:5px;
+	border:2px #EEDDCC solid;
+}
+#placeholder{
+	/*使图片居中，图片元素转为块元素，左右外边距为auto*/
+	display:block;
+	margin:10px auto;
+
+}
+#placeholderdiv{
+	background-image:url(../images/subbg.png);
+	width:835px;
+	padding:10px;
+	border-radius:5px;
+	border:2px black solid;
+	margin-top:5px;
+}

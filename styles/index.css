@@ -1,0 +1,62 @@
+a:link{
+	color:white;	
+	background-color:transparent;
+
+	
+}
+ a:visited{
+	color:white;	
+	background-color:transparent;
+}
+ a:hover{
+	color:red;	
+	text-decoration:underline;
+	
+}
+ a:active{
+	color:#778;	
+	background-color:transparent;
+}
+
+#news a:link{
+	color:black;	
+	background-color:transparent;
+
+	
+}
+#news a:visited{
+	color:black;	
+	background-color:transparent;
+}
+#news a:hover{
+	color:red;	
+	text-decoration:underline;
+	
+}
+#news a:active{
+	color:#778;	
+	background-color:transparent;
+}
+
+#news{
+		padding-left:20px;
+}
+#news a{
+	color:black;
+	font-weight:normal;
+	padding-left:5px;
+	text-decoration:none;
+}
+#news li{
+	border-bottom-color:grey;
+	border-bottom-style:dotted;
+	border-bottom-width:1px;
+	/*自定义列表项图片,写在li的css中，写在ul的css中无效*/
+	list-style-image:url(../images/listimage.gif);
+
+}
+.grey{
+	color:grey;
+	padding-left:10px;
+	font-weight:normal;
+}
