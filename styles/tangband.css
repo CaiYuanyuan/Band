@@ -14,7 +14,7 @@ body{
 	width:960px;
 	/*字体*/
 	font-size:85%;
-	font-family:"微软雅黑",Helvetica,sans-serif;
+	font-family:"宋体",Helvetica,sans-serif;
 	margin-left:auto;
 	margin-right:auto;
   
@@ -70,9 +70,6 @@ a:active{
 	background-color:#C0DCC0;	
 	border-color:#667;
 	/*布局*/
-	background-image:url(images/navbg.png);
-	background-position:bottom left;
-	background-repeat:repeat-x;
 
 	border-width:0.1em;
 	border-style:solid;
@@ -152,9 +149,10 @@ h3{
 	color:#445;
 	background-color:#EEDDCC;	
 }
+/*active：单击按下不松手时的状态*/
 #navigation a:active{
 	color:#667;
-	background-color:#ec8;	
+	background-color:#F4F4F4;	
 }
 #navigation li{
 	display:inline;	
@@ -242,8 +240,7 @@ h3{
 
 	padding-left:5px;
 	vertical-align:center;
-
 	border-radius:5px;
 
-
 }
+

@@ -95,7 +95,7 @@ function moveElement(elementID,final_left,final_top,interval){
 	//如果left,top值未设置，如何防止报错:给它一个初始值，或直接终止函数
 	if(!elem.style.left){
 	//切记，给属性赋值，属性值一定要加双引号
-		eleme.style.left = "0px";
+		elem.style.left = "0px";
 	}
 	if(!elem.style.top){
 		elem.style.top = "0px";
